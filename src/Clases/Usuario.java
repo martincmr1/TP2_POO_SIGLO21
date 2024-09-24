@@ -1,0 +1,38 @@
+package Clases;
+
+public class Usuario {
+
+    private int id;
+    private String nombre;
+    private String email;
+    private String contrasena;
+
+    public Usuario(int id, String nombre, String email, String contrasena) {
+        this.id = id;
+        this.nombre = nombre;
+        this.email = email;
+        this.contrasena = contrasena;
+    }
+
+    public void registrar() {
+        System.out.println("****************************");
+        System.out.println("*Usuario registrado: " + nombre + "*");
+        System.out.println("******************************");
+    }
+
+    public boolean iniciarSesion(String email, String contrasena) {
+        if (this.email.equals(email) && this.contrasena.equals(contrasena)) {
+            System.out.println("****************************");
+            System.out.println("Inicio de sesion exitoso");
+            System.out.println("********************************");
+            return true;
+        } else {
+            System.out.println("Usuario o contrasenia incorrectos");
+            return false;
+        }
+    }
+
+    public void verHistorialCompras() {
+        System.out.println("Mostrando historial de compras para: " + nombre);
+    }
+}
