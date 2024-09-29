@@ -1,4 +1,7 @@
-
+/* Apellido y nombre :RUGNIA CARLOS MARTIN
+DNI: 28337376 
+TP2 : POO 
+*/
 import java.util.ArrayList;
 import java.util.Scanner;
 import Clases.*;
@@ -22,7 +25,7 @@ public class ECommerce {
         listaProductosDisponibles.add(new Producto(8, "Zapatilla Retro", "Reebok", 40, "Blanco", 110000.75, 7));
         listaProductosDisponibles.add(new Producto(9, "Zapatilla de CrossFit", "Under Armour", 41, "Negro", 165000.10, 4));
         listaProductosDisponibles.add(new Producto(10, "Zapatilla de Correr", "New Balance", 42, "Gris", 180000.25, 9));
-
+        // Menú
         while (true) {
             System.out.println("-----------------------");
             System.out.println("----- Deport Line -----");
@@ -38,7 +41,7 @@ public class ECommerce {
 
             int opcion = scanner.nextInt();
             scanner.nextLine();
-
+            // Lógica de las opciones del menú
             switch (opcion) {
                 case 1:
                     // Registro del usuario

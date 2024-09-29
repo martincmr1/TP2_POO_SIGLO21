@@ -1,3 +1,9 @@
+/* Apellido y nombre :RUGNIA CARLOS MARTIN
+DNI: 28337376 
+TP2 : POO 
+*/
+
+
 package Clases;
 
 public class Producto {
@@ -32,27 +38,27 @@ public class Producto {
         System.out.println("Stock actualizado. Nuevo stock: " + this.stock);
     }
 
-    // Método getter para obtener el id del producto
+    // Método para obtener el id del producto
     public int getId() {
         return id;
     }
 
-    // Método getter para obtener la marca del producto
+    // Método para obtener la marca del producto
     public String getMarca() {
         return marca;
     }
 
-    // Método getter para obtener el nombre del producto
+    // Método para obtener el nombre del producto
     public String getNombre() {
         return nombre;
     }
 
-    // Método getter para obtener el precio del producto
+    // Método para obtener el precio del producto
     public double getPrecio() {
         return precio;
     }
 
-    // Método getter para obtener el stock del producto
+    // Método para obtener el stock del producto
     public int getStock() {
         return stock;
     }

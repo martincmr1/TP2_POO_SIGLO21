@@ -1,3 +1,7 @@
+/* Apellido y nombre :RUGNIA CARLOS MARTIN
+DNI: 28337376 
+TP2 : POO 
+*/
 package Clases;
 
 import java.util.ArrayList;
@@ -30,7 +34,7 @@ public class Carrito {
         }
     }
 
-    // Getter para acceder a la lista de productos
+    // Acceder a la lista de productos
     public ArrayList<Producto> getListaProductos() {
         return listaProductos;
     }

@@ -1,3 +1,7 @@
+/* Apellido y nombre :RUGNIA CARLOS MARTIN
+DNI: 28337376 
+TP2 : POO 
+*/
 package Clases;
 
 public class Usuario {
